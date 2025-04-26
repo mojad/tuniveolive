@@ -3,63 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tunive Olive - Huile d'Olive Extra Vierge</title>
+    <title>Tunive Olive - Huile d'Olive Exquise</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Header / Navigation -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Accueil</a></li>
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#products">Produits</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="logo">
+                <h1>Tunive Olive</h1>
+                <p>Huile d'Olive Exquise, Pureté Absolue</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#produits">Nos Produits</a></li>
+                    <li><a href="#engagement">Notre Engagement</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home">
-        <div class="hero">
-            <h1>Bienvenue chez Tunive Olive</h1>
-            <p>Une huile d'olive extra vierge de qualité supérieure, produite dans le respect des traditions tunisiennes.</p>
+    <section class="hero" id="accueil">
+        <div class="hero-content">
+            <h2>La Nature dans Chaque Goutte</h2>
+            <p>Découvrez notre huile d'olive pure, pressée à froid et 100% naturelle.</p>
+            <a href="#contact" class="cta-button">Contactez-nous</a>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>À propos de Tunive Olive</h2>
-        <p>Nous produisons une huile d'olive de qualité supérieure, cultivée et pressée selon des méthodes traditionnelles. Découvrez notre histoire et notre engagement pour une agriculture durable et responsable.</p>
-    </section>
-
-    <!-- Products Section -->
-    <section id="products">
-        <h2>Nos Produits</h2>
-        <div class="product">
-            <img src="images/huile1.jpg" alt="Huile d'olive">
-            <h3>Huile d'olive extra vierge</h3>
-            <p>Pure et authentique, notre huile d'olive extra vierge est un produit 100% tunisien.</p>
+    <section id="produits" class="produits">
+        <div class="container">
+            <h3>Nos Produits</h3>
+            <div class="produit-item">
+                <img src="images/huile1.jpg" alt="Huile d'Olive Extra-Vierge">
+                <h4>Huile d'Olive Extra-Vierge</h4>
+                <p>Notre huile d'olive extra-vierge est un produit de qualité supérieure, 100% naturel et pressé à froid.</p>
+            </div>
+            <div class="produit-item">
+                <img src="images/huile2.jpg" alt="Huile d'Olive Bio">
+                <h4>Huile d'Olive Bio</h4>
+                <p>Un goût pur et raffiné, parfait pour les connaisseurs. Cultivée sans pesticides ni produits chimiques.</p>
+            </div>
+            <div class="produit-item">
+                <img src="images/hero.jpg" alt="Huile d'Olive de Première Pression à Froid">
+                <h4>Huile d'Olive de Première Pression à Froid</h4>
+                <p>Excellente pour vos salades, pâtes et plats méditerranéens. Un produit d'une qualité inégalée.</p>
+            </div>
         </div>
-        <div class="product">
-            <img src="images/huile2.jpg" alt="Huile d'olive">
-            <h3>Huile d'olive aromatisée</h3>
-            <p>Pour les connaisseurs, notre huile d'olive aromatisée ajoute une touche spéciale à vos plats.</p>
+    </section>
+
+    <section id="engagement" class="engagement">
+        <div class="container">
+            <h3>Notre Engagement</h3>
+            <p>Chez Tunive Olive, nous croyons en une agriculture durable et responsable. Nos oliviers sont cultivés dans le respect de l'environnement, sans utilisation de produits chimiques. Nous nous engageons à offrir une huile d'olive pure, de la récolte à la mise en bouteille.</p>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contactez-nous</h2>
-        <p>Pour plus d'informations ou pour passer commande, contactez-nous à l'adresse suivante :</p>
-        <p>Email: <a href="mailto:info@tuniveolive.com">info@tuniveolive.com</a></p>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h3>Contactez-Nous</h3>
+            <form action="#">
+                <input type="text" placeholder="Nom" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Votre message..." required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
     </section>
 
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Tunive Olive. Tous droits réservés.</p>
+        <div class="container">
+            <p>&copy; 2025 Tunive Olive | Tous droits réservés | <a href="#">Mentions légales</a></p>
+        </div>
     </footer>
-
 </body>
 </html>
