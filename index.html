@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tunive Olive - Huile d'Olive Exquise</title>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <meta name="description" content="Tunive Olive - Huile d'olive vierge extra artisanale de Provence. Production biologique et pressée à froid.">
+    <title>Tunive Olive - Huile d'Olive Premium</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,71 +15,152 @@
         <div class="container">
             <div class="logo">
                 <h1>Tunive Olive</h1>
-                <p>Huile d'Olive Exquise, Pureté Absolue</p>
+                <p>L'excellence depuis toujours</p>
             </div>
             <nav>
                 <ul>
                     <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#produits">Nos Produits</a></li>
-                    <li><a href="#engagement">Notre Engagement</a></li>
+                    <li><a href="#produits">Produits</a></li>
+                    <li><a href="#savoir-faire">Savoir-faire</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
 
     <section class="hero" id="accueil">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h2>La Nature dans Chaque Goutte</h2>
-            <p>Découvrez notre huile d'olive pure, pressée à froid et 100% naturelle.</p>
-            <a href="#contact" class="cta-button">Contactez-nous</a>
+            <h2 data-aos="fade-up">L'Art de l'Olivier</h2>
+            <p data-aos="fade-up" data-aos-delay="200">Une huile d'olive extra-vierge aux arômes exceptionnels</p>
+            <a href="#produits" class="cta-button" data-aos="zoom-in">Découvrir</a>
         </div>
     </section>
 
     <section id="produits" class="produits">
         <div class="container">
-            <h3>Nos Produits</h3>
-            <div class="produit-item">
-                <img src="images/huile1.jpg" alt="Huile d'Olive Extra-Vierge">
-                <h4>Huile d'Olive Extra-Vierge</h4>
-                <p>Notre huile d'olive extra-vierge est un produit de qualité supérieure, 100% naturel et pressé à froid.</p>
-            </div>
-            <div class="produit-item">
-                <img src="images/huile2.jpg" alt="Huile d'Olive Bio">
-                <h4>Huile d'Olive Bio</h4>
-                <p>Un goût pur et raffiné, parfait pour les connaisseurs. Cultivée sans pesticides ni produits chimiques.</p>
-            </div>
-            <div class="produit-item">
-                <img src="images/hero.jpg" alt="Huile d'Olive de Première Pression à Froid">
-                <h4>Huile d'Olive de Première Pression à Froid</h4>
-                <p>Excellente pour vos salades, pâtes et plats méditerranéens. Un produit d'une qualité inégalée.</p>
+            <h3 data-aos="fade-up">Nos Créations</h3>
+            <div class="produit-grid">
+                <div class="produit-card" data-aos="fade-up">
+                    <div class="produit-badge">Limited</div>
+                    <img src="images/huile1.jpg" alt="Huile d'olive extra-vierge Tunive" loading="lazy">
+                    <div class="produit-info">
+                        <h4>Huile d'olive extra-vierge bio</h4>
+                        <p>Une huile d'olive extra-vierge bio, pure et naturelle, pour une expérience gustative authentique, récoltée avec soin selon des pratiques agricoles respectueuses de l'environnement</p>
+                        <span class="prix">25€</span>
+                    </div>
+                </div>
+                <div class="produit-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="produit-badge">Premium</div>
+                    <img src="images/huile2.jpg" alt="Huile d'olive bio Tunive" loading="lazy">
+                    <div class="produit-info">
+                        <h4>Huile d'olive extra-vierge</h4>
+                        <p>Une huile d'olive extra-vierge premium, d'une qualité supérieure, offrant un goût raffiné et des arômes délicats pour sublimer vos plats</p>
+                        <span class="prix">20€</span>
+                    </div>
+                </div>
+                <div class="produit-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="produit-badge">Classic</div>
+                    <img src="images/huile3.jpg" alt="Huile d'olive premium Tunive" loading="lazy">
+                    <div class="produit-info">
+                        <h4>Huile d'olive vierge</h4>
+                        <p>Une huile d'olive vierge, légère et polyvalente, idéale pour toutes vos préparations culinaires quotidiennes, offrant une saveur simple et authentique</p>
+                        <span class="prix">15€</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="engagement" class="engagement">
+    <section id="savoir-faire" class="savoir-faire">
         <div class="container">
-            <h3>Notre Engagement</h3>
-            <p>Chez Tunive Olive, nous croyons en une agriculture durable et responsable. Nos oliviers sont cultivés dans le respect de l'environnement, sans utilisation de produits chimiques. Nous nous engageons à offrir une huile d'olive pure, de la récolte à la mise en bouteille.</p>
+            <div class="content-left" data-aos="fade-right">
+                <h3>Notre Savoir-Faire</h3>
+                <p>Une récolte manuelle, un pressage à froid et un contrôle qualité exigeant pour une huile d'exception.</p>
+                <ul>
+                    <li><i class="fas fa-leaf"></i> Agriculture biologique</li>
+                    <li><i class="fas fa-certificate"></i> Certifié </li>
+                    <li><i class="fas fa-tractor"></i> Récolte traditionnelle</li>
+                </ul>
+            </div>
+            <div class="content-right" data-aos="fade-left">
+                <img src="images/oliviers.jpg" alt="Oliviers Tunive" loading="lazy">
+            </div>
         </div>
     </section>
 
     <section id="contact" class="contact">
         <div class="container">
-            <h3>Contactez-Nous</h3>
-            <form action="#">
-                <input type="text" placeholder="Nom" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Votre message..." required></textarea>
-                <button type="submit">Envoyer</button>
-            </form>
+            <h3 data-aos="fade-up">Contactez-nous</h3>
+            <div class="contact-grid">
+                <form data-aos="fade-right">
+                    <input type="text" placeholder="Nom" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Votre message" required></textarea>
+                    <button type="submit">Envoyer <i class="fas fa-paper-plane"></i></button>
+                </form>
+                <div class="contact-info" data-aos="fade-left">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>https://mojad.github.io/tuniveolive/<br>Gafsa Tunisia</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+216 99 00 00 09</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>tuniveolive@gmail.com</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Tunive Olive | Tous droits réservés | <a href="#">Mentions légales</a></p>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h4>Tunive Olive</h4>
+                    <p>L'excellence oléicole depuis toujours</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">CGV</a>
+                    <a href="#">Politique de confidentialité</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Tunive Olive. Tous droits réservés.</p>
+            </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+
+        // Menu mobile
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+
+        // Header scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
 </body>
 </html>
